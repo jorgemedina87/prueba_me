@@ -1,0 +1,19 @@
+---
+title: "Metodología KDD (Knowledge Discovery in Databases)"
+execute:
+  echo: false
+---
+
+## Metodología KDD
+
+![La metodología KDD](images/crisp_dm.png){fig-alt="es un enfoque más amplio que abarca todo el proceso de descubrimiento de conocimiento a partir de los datos. Incluye las siguientes etapas:" fig-align="center"}
+
+
+a.  Selección: Se seleccionan los datos relevantes para el problema de clasificación.
+b.  Preprocesamiento: Se llevan a cabo tareas de limpieza, transformación y reducción de datos.
+c.  Transformación: Los datos se transforman en una forma más adecuada para su análisis y modelado.
+d.  Implementación del modelo: Una descripción de cómo se implementó el modelo de aprendizaje automático, incluyendo los pasos específicos seguidos y cualquier configuración o ajuste realizado.
+e.  Evaluación: Se evalúa el rendimiento de los modelos utilizando métricas apropiadas y técnicas de validación.
+f.  Interpretación: Se interpretan los resultados del modelo y se extrae conocimiento útil.
+g.  Utilización: Se utiliza el conocimiento extraído para la toma de decisiones y acciones en el contexto del problema de clasificación.
+

@@ -1,0 +1,64 @@
+project: 
+  type: website
+  
+website: 
+  page-navigation: true
+  title: "Prueba Mercado libre " 
+  site-url: "https://www.linkedin.com/in/ncgiraldo" 
+  repo-url: https://www.linkedin.com/in/ncgiraldo 
+ 
+  
+  page-footer:
+    right: "This page is built with ❤️"
+    left: "&copy; CC-By Norma Giraldo, 2023"
+    
+  sidebar:
+    logo: "images/logo_meli.png"
+    pinned: false
+    align: center
+    tools: 
+      - icon: envelope
+        href: normagiraldo515@gmail.com
+        text: "Email"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ncgiraldo
+        text: "Perfil Norma Giraldo"
+      - icon: phone
+        href: "315 455 72 70"
+        text: "315 455 72 70"         
+
+    style: "docked"
+    search: false
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Descripcion del problema
+      - href: documents/metodologia.qmd
+        text: Metodologia
+      - section: documents/index_eda.qmd
+        contents: 
+          - documents/codigo.qmd
+      - href: documents/modelamiento.qmd
+        text: Modelamiento
+      - href: documents/evaluacion.qmd
+        text: Evaluación
+      - href: documents/resultados.qmd
+        text: Resultados
+
+
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+
+filters:
+  - include-files.lua
+  - quarto
+
+  
